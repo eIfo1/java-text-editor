@@ -19,7 +19,7 @@ public class mainPanel extends JPanel {
         //JLabel label = new JLabel("Edit below");
         //add(label);
         JTextArea area = new JTextArea(5, 50);
-        Font font = new Font("Consolas", Font.PLAIN, 20);
+        Font font = new Font("Monospace", Font.BOLD, 20);
         area.setFont(font);
         area.setLineWrap(true);
         area.setWrapStyleWord(true);

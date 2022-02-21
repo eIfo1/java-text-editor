@@ -32,7 +32,6 @@ public class window {
         JFrame frame = new JFrame("Text Editor");
 
         // Window Properties (size, visibility, content, colors, etc.)
-        frame.setExtendedState(java.awt.Frame.MAXIMIZED_BOTH);
         frame.setBounds(0, 0, appWidth, appHeight);
         frame.add(new menuBar());
         frame.setJMenuBar(new menuBar());
